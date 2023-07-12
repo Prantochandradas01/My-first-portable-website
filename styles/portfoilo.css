@@ -1,0 +1,195 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* nav related styles */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0 200px;
+}
+.nav-title{
+    color: black;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    padding-top: 20px;
+   }
+   .top{
+    padding-top: 20px;
+   }
+   .orange{
+    color: orangered;
+   }
+   nav > ul{
+    display: flex;
+    align-items: center;
+   }
+   nav li {
+    list-style: none;
+    margin-right: 50px;
+   }
+   nav a {
+    text-decoration: none;
+    color: #474747;
+   }
+   .button{
+    border-radius: 5px;
+    background: orangered;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
+   }
+   .header{
+    background-color: #d6a4877c;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+   }
+   .bannar{
+    padding: 145px 30px 0 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between 
+    
+    
+   }
+   .content{
+    max-width: ;
+   }
+   .bannar .profile{
+    height: auto;
+    width: 500PX;
+    
+    
+   }
+ 
+   .bannar-open{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+   }
+   .bannar-titile{
+    font-size: 85px;
+    font-weight: 700;
+   }
+   /* main section*/
+   main{
+    width: 1140px;
+    margin: 0 auto;
+   }
+   main section{
+    margin-top: 130px;
+   }
+   /* main control section styles of about*/
+   .about{
+    padding: 130px;
+    border-radius: 10px;
+    background-color: rgba(218, 189, 109, 0.781);
+    margin: 130px;
+   }
+   .section-title{
+    color: black;
+    text-align: center;
+    font-style: 30px;
+    font-weight: 700;
+    padding-bottom: 50px;
+   }
+   .description{
+    color: #2e302e;
+    text-align: center;
+    font-size: 18px;
+   }
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.about-info{
+    text-align: center;
+    margin-top: 20px;
+}
+#what-i-do-description{
+    padding: 40px 150px;
+}
+/*what i do*/
+.skils-container{
+    display: flex;
+    padding: 50px;
+    gap: 24px;
+}
+.skils{
+    padding: 30px;
+   
+    border-radius: 5px;
+    background-color: beige;
+    box-shadow: opx 6px 50px opx rgba(0, 0, 0, 0.06);
+}
+.skils-description{
+color: #2c2b2b;
+}
+/*last part*/
+.resume-column-title{
+    color: #353434;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-item-title{
+    color: #302f2f;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-item-versity, .resume-item-description{
+    color: #202020;
+}
+.resume-item-versity{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.resume-container hr{
+    margin: 30px;
+}
+.dawnload-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+/*footer style*/
+footer{
+    display: flex;
+    background-color: beige;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
+.social-links{
+    padding-top: 20px;
+}
+.social-links a{
+    margin-right: 25px;
+}
+.footer-column{
+    width: 50%;
+}
+.contact input[type="text"],.contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #222121;
+    border-radius: 5px;
+    background-color: white;
+    border: 0;
+    width: 100%;
+}
+  
